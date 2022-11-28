@@ -75,6 +75,7 @@ label, button{
 
 .vdesc,
 .vbruto{
+    width: 100%;
     padding: 1rem;
     font-size: 120%;
 }
@@ -88,7 +89,7 @@ label, button{
     justify-content: center;
     align-content: center;
     width: 100%;
-    max-width: 45%;
+    max-width: 50%;
     text-shadow: 1px 1px 1px #000;
 }
 
