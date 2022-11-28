@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calcular Retenção na Fonte NFS</title>
+
+</head>
+<body class="bg cor01">
+
+    <section id="seccalsal" class="seccalsal flex col cem">
+        <h2>Retenção na Fonte - NFS</h2>
+        <form id="fm" class="fm flex col cem">
+            <h3 class="saida">
+                <span>Saída...</span>
+            </h3>
+            <label for="vbruto" class="lb">
+                <strong>Valor Bruto: </strong>
+                <input type="text" value="" placeholder="0.00" class="vbruto" id="vbruto" />
+            </label>
+            <label for="vdesc" class="lb">
+                <strong>Outros Descontos: </strong>
+                <input type="text" value="" placeholder="0.00" class="vdesc" id="vdesc" />
+            </label>
+            <nav class="boxbts cem">
+                <button type="button" id="btc" class="btc bts" onclick="calcSal();">
+                    <span>Confirmar</span>
+                </button>
+                <input type="reset" value="Limpar Campos " id="btl" class="bts btl"/>
+            </nav>
+        </form>
+    </section>    
+
+<script src="script.js"></script>
+
+</body>
+</html>

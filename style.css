@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+input,
+label, button{
+    cursor: pointer;
+}
+
+.cem{
+    width: 100%;
+    max-width: 100%;
+}
+
+.flex{
+    display: flex;
+}
+
+.row{
+    flex-flow: row wrap;
+}
+
+.col{
+    flex-flow: column wrap;
+}
+
+.bg{
+    background-color: red;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.cor01{
+    color: #fff;
+}
+
+.seccalsal{
+    display: flex;
+}
+
+.seccalsal h2{
+    color: #ff0;
+    padding: .5rem;
+    width: 100%;
+    text-align: center;
+}
+
+.fm{
+    min-height: 80vh;
+    height: auto;
+    width: 100%;
+    max-width: 90%;
+    margin: auto;
+    background: rgba(5, 5, 5, .6);
+}
+
+.boxbts,
+.fm .lb{
+    display: flex;
+    flex-flow: column wrap;
+    padding: .5rem;
+}
+
+.boxbts{
+    flex-flow: row wrap;
+}
+
+.vdesc,
+.vbruto{
+    padding: 1rem;
+    font-size: 120%;
+}
+
+.bts{
+    color: #fff;
+    padding: 1rem;
+    margin: .5rem auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    max-width: 45%;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.btc{
+    background: #09f;
+}
+
+.btc:hover{
+    background: #059;
+}
+
+.btl{
+    background: #f90;
+}
+
+.btl:hover{
+    background: #950;
+}
+
+.saida{
+    padding: 1rem;
+    background: rgba(10, 10, 10, .6);
+}
+
+.rs {
+    color: #0f0;
+}
+
+.rs b{
+    color: #ff0;
+    padding: 0 .5rem;
+    
+}
+
+.dados{
+    font-size: 90%;
+    padding: 2rem 0;
+}
+
+.dados::before{
+    display: block;
+    width: 100%;
+    max-width: 70%;
+    content: "";
+    height: 4px;
+    background: #900;
+    margin: 1.5rem auto;
+}
+
+.dados span{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+.dados em{
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding: .25rem 1rem;
+    margin: auto .5rem;
+}
